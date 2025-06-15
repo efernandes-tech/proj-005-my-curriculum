@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && pnpm run copy-htaccess",
+    "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "build-hostinger": "tsc -b && vite build && pnpm run copy-htaccess",
     "copy-htaccess": "cp .htaccess dist/.htaccess"
   },
   "dependencies": {
