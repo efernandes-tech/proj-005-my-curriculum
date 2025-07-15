@@ -4,9 +4,9 @@ A web application designed to showcase a professional curriculum in a structured
 
 ## 🚀 Technologies Used
 
-- React
-- TypeScript
-- Azure
+-   React
+-   TypeScript
+-   Vite
 
 ## 🔧 Setup
 
@@ -15,7 +15,7 @@ A web application designed to showcase a professional curriculum in a structured
 git clone https://github.com/efernandes-tech/proj-005-my-curriculum.git
 
 # Navigate to the project directory
-cd proj-005-my-curriculum/version-2
+cd proj-005-my-curriculum/frontend/site
 
 # Install dependencies
 yarn install # or npm install
@@ -26,5 +26,4 @@ yarn start # or npm start
 
 ## 👨‍💻 Author
 
-- **Éderson Fernandes** - [GitHub Profile](https://github.com/efernandes-tech)
-
+-   **Éderson Fernandes** - [GitHub Profile](https://github.com/efernandes-tech)
