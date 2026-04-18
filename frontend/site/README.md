@@ -17,7 +17,7 @@ caprover login
 
 https://captain.caprover.edersonfernandes.tec.br
 
-cd ./version-2
+cd ./frontend/site
 
 tar --exclude='./node_modules' -cvf build.tar .
 
