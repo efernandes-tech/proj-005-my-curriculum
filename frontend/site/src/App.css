@@ -2,3 +2,27 @@ body {
     background-color: #F4F4F4;
     color: #000;
 }
+
+@media print {
+    .no-print {
+        display: none !important;
+    }
+
+    :root {
+        --spacing-8: 0.65rem;
+        --spacing-6: 0.45rem;
+        --spacing-4: 0.35rem;
+        --spacing-3: 0.3rem;
+        --spacing-2: 0.2rem;
+        --spacing-1: 0.15rem;
+        --font-sizes-lg: 0.95rem;
+        --font-sizes-md: 0.85rem;
+        --font-sizes-sm: 0.75rem;
+    }
+
+    body {
+        font-size: 10pt !important;
+        line-height: 1.3 !important;
+        background-color: white !important;
+    }
+}
